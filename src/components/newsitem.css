@@ -24,3 +24,13 @@
 body {
     background-color: slategray;
 }
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.search-cursor {
+    cursor: pointer;
+}
