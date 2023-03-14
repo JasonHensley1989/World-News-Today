@@ -1,0 +1,26 @@
+.news-app {
+    display: flex;
+    justify-content: center;
+}
+
+.news-item {
+    width: 500px;
+    padding: 20px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.news-img {
+    width: 400px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+body {
+    background-color: slategray;
+}
