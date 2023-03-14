@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Application Overview
+This is a an application built using a 3rd party news api
+## Project Links
+https://newsapi.org/docs/get-started
+## Project Description
+This project will showcase React and its implementations
+## API  
+c432f053df844de99a0e1a43560c6ef6 - key
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+'''
 
-## Available Scripts
+"status": "ok",
+"totalResults": 13719,
+"articles": [
+{
+"source": {
+"id": null,
+"name": "NorthJersey.com"
+},
+"author": "NorthJersey.com, Colleen Wilson, NorthJersey.com",
+"title": "Activists push green power to counter NJ Transit's plan for backup fossil fuel power plant",
+"description": "A new report proposes a hybrid renewable energy microgrid for the agency that would use solar panels, battery storage and a backup gas turbine.",
+"url": "https://www.northjersey.com/story/news/2023/03/13/nj-transit-power-plant-protest-activists-green-option/69995219007/",
+"urlToImage": "https://www.gannett-cdn.com/-mm-/6c708796db57d57cc55e2b0ac699e7413d832b6f/c=0-51-1000-613/local/-/media/2016/12/01/Bergen/051616-l-editsolar-30p.jpg?auto=webp&format=pjpg&width=1200",
+"publishedAt": "2023-03-13T21:00:28Z",
+"content": "Environmental activists heralded a new report Thursday that they say proves a hybrid renewable energy microgrid is feasible to help power NJ Transit's power needs during an unexpected outage, as oppo… [+4028 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool Australia"
+},
+"author": "Tony Yoo",
+"title": "‘Top quality’: Expert picks 2 ASX 200 shares to buy at a nice discount",
+"description": "These stocks are down but not out. One portfolio manager is convinced they'll make you richer in the long run.\nThe post ‘Top quality’: Expert picks 2 ASX 200 shares to buy at a nice discount appeared first on The Motley Fool Australia.",
+"url": "https://www.fool.com.au/2023/03/14/top-quality-expert-picks-2-asx-200-shares-to-buy-at-a-nice-discount/",
+"urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/12/two-1200x675.jpg",
+"publishedAt": "2023-03-13T21:00:00Z",
+"content": "If you go shopping for a couch or a car, you target ones that are on sale. \r\nSo why wouldn’t you do the same for ASX shares?\r\nFor those who are still scared of buying into stocks that have fallen in … [+2479 chars]"
+},
+'''
 
-In the project directory, you can run:
 
-### `npm start`
+## Wireframes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### MVP EXAMPLE
+Fully functioning product, deployed and on portfolio
 
-### `npm test`
+#### PostMVP EXAMPLE
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Incorporating additional 3rd party api such as a picture changer on the background that changes every so often
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Additional Libraries
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Code Snippet
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
