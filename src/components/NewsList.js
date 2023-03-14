@@ -1,5 +1,6 @@
 import React, { useState, useEffect }from 'react'
 import axios from 'axios';
+import NewsItem from './NewsItem';
 
 const NewsList = () => {
 
@@ -16,7 +17,15 @@ const NewsList = () => {
 
 
   return (
-    <div>News List Will Appear Here</div>
+    <div>
+      {articles.map(article => {
+        return (
+          <NewsItem title={article.title} description={article.description}
+            url={article.url} urlToImage={article.urlToImage}
+          />
+        )
+      })}
+    </div>
   )
 }
 
