@@ -35,8 +35,9 @@ body {
     cursor: pointer;
 }
 
-.article-component {
+/* .article-component {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    display: inline-block;
     
-}
+} */
