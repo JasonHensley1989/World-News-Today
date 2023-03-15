@@ -17,7 +17,7 @@ const NewsList = () => {
 
 
   return (
-    <div>
+    <div className='article-component'>
       {articles.map(article => {
         return (
           <NewsItem title={article.title} description={article.description}

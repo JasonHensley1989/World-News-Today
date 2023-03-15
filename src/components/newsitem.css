@@ -34,3 +34,9 @@ body {
 .search-cursor {
     cursor: pointer;
 }
+
+.article-component {
+    display: flex;
+    justify-content: flex-start;
+    
+}
