@@ -28,16 +28,16 @@ body {
 .searchBar {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .search-cursor {
     cursor: pointer;
 }
 
-/* .article-component {
+.article-component {
     display: flex;
-    justify-content: center;
-    display: inline-block;
-    
-} */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
