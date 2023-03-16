@@ -16,4 +16,4 @@ const SearchArea = () => {
     )
 }
 
-export default SearchAre
+export default SearchArea
