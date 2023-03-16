@@ -49,4 +49,9 @@ body {
 
 }
 
+.search {
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+}
 
